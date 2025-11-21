@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/варвара/ontologies/2025/10/laba4-ots"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/варвара/ontologies/2025/10/laba4-ots">
+    <Prefix name="" IRI="http://www.semanticweb.org/варвара/ontologies/2025/10/laba4-ots/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="ru">лаба 4 по отс - онтологическая модель кинопоиска</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Click"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Screen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Scroll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Step"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/View"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Вызывать"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Иметь_состояние"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Материализоваться"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Предшествовать"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/быть_причиной"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/codename"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Использует_для_досуга"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/Button"/>
+        <Class IRI="/Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Click"/>
+        <Class IRI="/Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Input"/>
+        <Class IRI="/Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Screen"/>
+        <Class IRI="/Interface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Scroll"/>
+        <Class IRI="/Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Type"/>
+        <Class IRI="/Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/View"/>
+        <Class IRI="/Action"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="/Reason"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Step"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Screen"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/User"/>
+        <NamedIndividual IRI="/Использует_для_досуга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Screen"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Button"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Scroll"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Scroll"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Step"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/View"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/View"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Step"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Input"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Input"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Type"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Type"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Click"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Step"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Button"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Screen"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Screen"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+        <Literal>MainSitePage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+        <Literal>TypeFilmsPage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+        <Literal>SearchButton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+        <Literal>SearchForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+        <Literal>BrowserSearchForm</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+        <Literal>Link</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+        <Literal>FilmCard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/codename"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+        <Literal>FilmPage</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <Class IRI="/Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Вызывать"/>
+        <Class IRI="/Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Иметь_состояние"/>
+        <Class IRI="/User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <Class IRI="/Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <Class IRI="/Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <Class IRI="/Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <Class IRI="/Step"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <Class IRI="/Reason"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <Class IRI="/Reason"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Вызывать"/>
+        <Class IRI="/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Иметь_состояние"/>
+        <Class IRI="/Reason"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <Class IRI="/Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <Class IRI="/Interface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <Class IRI="/Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <Class IRI="/Step"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <Class IRI="/Step"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="/codename"/>
+        <Class IRI="/Interface"/>
+    </DataPropertyDomain>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Предполагать_взаимодействие_с</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/Action"/>
+                <Variable IRI="/action"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Interface"/>
+                <Variable IRI="/interface"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+                <Variable IRI="/action"/>
+                <Variable IRI="/interface"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Материализоваться</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/Step"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Action"/>
+                <Variable IRI="/y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Материализоваться"/>
+                <Variable IRI="/x"/>
+                <Variable IRI="/y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>быть причиной</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/Reason"/>
+                <Variable IRI="/reason"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Step"/>
+                <Variable IRI="/step"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/быть_причиной"/>
+                <Variable IRI="/reason"/>
+                <Variable IRI="/step"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>иметь состояние</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/User"/>
+                <Variable IRI="/user"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Reason"/>
+                <Variable IRI="/reason"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Иметь_состояние"/>
+                <Variable IRI="/user"/>
+                <Variable IRI="/reason"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>быть целевым действием</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/Step"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Reason"/>
+                <Variable IRI="/y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+                <Variable IRI="/x"/>
+                <Variable IRI="/y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Предшествовать_шагу</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="/Step"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="/Step"/>
+                <Variable IRI="/y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Предшествовать_шагу"/>
+                <Variable IRI="/x"/>
+                <Variable IRI="/y"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Предшествовать</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Материализоваться"/>
+                <Variable IRI="/step"/>
+                <Variable IRI="/action"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Материализоваться"/>
+                <Variable IRI="/step"/>
+                <Variable IRI="/action2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Предшествовать"/>
+                <Variable IRI="/action"/>
+                <Variable IRI="/action2"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/codename</IRI>
+        <Literal xml:lang="ru">формальное название элемента интерфейса, которое может быть использовано в исходном коде реализации сервиса</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
