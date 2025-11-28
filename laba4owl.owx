@@ -200,12 +200,20 @@
         <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Screen"/>
         <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/User"/>
         <NamedIndividual IRI="/Использует_для_досуга"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Screen"/>
@@ -216,8 +224,20 @@
         <NamedIndividual IRI="/Кнопка_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Scroll"/>
         <NamedIndividual IRI="/Листание_ленты"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Scroll"/>
@@ -228,8 +248,16 @@
         <NamedIndividual IRI="/Открыл_сайт"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/View"/>
         <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/View"/>
@@ -240,8 +268,16 @@
         <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Click"/>
         <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Click"/>
@@ -252,28 +288,60 @@
         <NamedIndividual IRI="/Поле_ввода"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Input"/>
         <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Click"/>
         <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Click"/>
         <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Click"/>
         <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="/Type"/>
+        <Class IRI="/Action"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Type"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Type"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Action"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Click"/>
@@ -288,17 +356,79 @@
         <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="/Screen"/>
         <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Interface"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/Screen"/>
         <NamedIndividual IRI="/Страница_фильма"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/быть_причиной"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
         <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
         <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
@@ -318,7 +448,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
         <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать_шагу"/>
@@ -326,9 +476,274 @@
         <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Иметь_состояние"/>
+        <NamedIndividual IRI="/Использует_для_досуга"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
         <NamedIndividual IRI="/Открыл_сайт"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
@@ -343,12 +758,237 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать_шагу"/>
         <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
         <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать"/>
         <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
         <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
@@ -361,9 +1001,549 @@
         <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать"/>
         <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
         <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать"/>
@@ -372,13 +1552,313 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
         <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать"/>
         <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
         <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Главная_страница_веб-сайта"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Карточка_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Кнопка_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Поле_ввода"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Поле_поиска_браузера"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Ссылка_на_веб-сайт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Страница_категорий__фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Листание_ленты"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Листание_страницы_категорий_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Быть_целевым_действием_для"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="#Хочет_найти_фильм/сериал"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
@@ -393,12 +1873,72 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Материализоваться"/>
         <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Отображается_поисковая_выдача"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Отображается_страница_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Переход_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
         <NamedIndividual IRI="/Переход_на_страницы_типом_фильмов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_на_кнопку_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_нужному_фильму"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_кликает_по_полю_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_сайта_в_поисковике"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_набирает_название_фильма_в_поле_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Материализоваться"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Пользователь_нажимает_на_ссылку"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Воспользовался_полем_поиска"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Открыл_сайт"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="/Предшествовать_шагу"/>
         <NamedIndividual IRI="/Просмотр_ленты"/>
         <NamedIndividual IRI="/Перейти_на_страницу_фильма"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Предшествовать_шагу"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
+        <NamedIndividual IRI="/Просмотр_ленты"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="/codename"/>
@@ -724,6 +2264,38 @@
                 <ObjectProperty IRI="/Предшествовать"/>
                 <Variable IRI="/action"/>
                 <Variable IRI="/action2"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>SearchButton</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Предполагать_взаимодействие_с"/>
+                <Variable IRI="/action"/>
+                <Variable IRI="/interface"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="/Event"/>
+                <Variable IRI="/interface"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="/Вызывать"/>
+                <Variable IRI="/action"/>
+                <Variable IRI="/interface"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
